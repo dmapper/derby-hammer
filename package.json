@@ -1,0 +1,27 @@
+{
+  "name": "local-derby-hammer",
+  "publishConfig": {
+    "registry": "http://npm.idecisiongames.com/"
+  },
+  "description": "Derby.js router",
+  "version": "0.0.1",
+  "main": "index.coffee",
+  "scripts": {
+    "prepublish": "grunt build"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {},
+  "browser": {
+    "hammer": "./dist/vendor/js/hammer.js"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-notify": "*",
+    "grunt-bower-task": "*",
+    "load-grunt-tasks": "*"
+  }
+}
