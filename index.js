@@ -1,5 +1,5 @@
-// Get templates from sibling derby folder (inside node_modules)
-var templates = require('../derby/node_modules/derby-templates').templates;
+// Get derby-templates from derby (inside the same or upper node_modules)
+var templates = require('derby/node_modules/derby-templates').templates;
 
 var overrideElementOn = require('./elementOn');
 
