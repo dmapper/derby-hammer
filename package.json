@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "http://npm.idecisiongames.com/"
   },
-  "description": "Derby.js router",
+  "description": "Add touch gestures support to Derby.js",
   "version": "0.1.1",
   "main": "index.coffee",
   "scripts": {
