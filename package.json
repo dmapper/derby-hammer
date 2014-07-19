@@ -2,6 +2,10 @@
   "name": "derby-hammer",
   "description": "Add Hammer.js touch gestures support to Derby.js",
   "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmapper/derby-hammer.git"
+  },
   "main": "index.js",
   "scripts": {
     "prepublish": "grunt build"
