@@ -1,11 +1,8 @@
 {
-  "name": "local-derby-hammer",
-  "publishConfig": {
-    "registry": "http://npm.idecisiongames.com/"
-  },
+  "name": "derby-hammer",
   "description": "Add Hammer.js touch gestures support to Derby.js",
   "version": "0.1.1",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
     "prepublish": "grunt build"
   },
