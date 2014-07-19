@@ -13,11 +13,11 @@ app.use('derby-hammer');
 
 ```html
 <index:>
-  <view name='sidebar'>
-  <main on-swiperight='showSidebar()'>
+  <view name='sidebar'></view>
+  <main on-swiperight='showSidebar()'></main>
 
 <sidebar:>
-  <aside on-swipeleft='hideSidebar()'>  
+  <aside on-swipeleft='hideSidebar()'></aside>  
 ```
 
 
